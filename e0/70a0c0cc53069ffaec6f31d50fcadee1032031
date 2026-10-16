@@ -1,0 +1,19 @@
+python/computer-use/openai-computer-use/README.md
+  s_473112293f4d98::t_1f9f1da61d2698 54
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "e070a0c0cc53069ffaec6f31d50fcadee1032031",
+  "prompts": {},
+  "sessions": {
+    "s_473112293f4d98": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ses_ebad45fd8ffef17CaQpl8uRS3s",
+        "model": "unknown"
+      },
+      "human_author": "Mislav Ivanda <mislavivanda454@gmail.com>"
+    }
+  }
+}
