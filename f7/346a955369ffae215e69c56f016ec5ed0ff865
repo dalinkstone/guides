@@ -1,0 +1,21 @@
+python/openai/computer-use/.env.example
+  s_5ff482f64e3ffa::t_f5d589b8a3a8c2 1-9
+python/openai/computer-use/README.md
+  s_5ff482f64e3ffa::t_154b98c742150b 1-67
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "f7346a955369ffae215e69c56f016ec5ed0ff865",
+  "prompts": {},
+  "sessions": {
+    "s_5ff482f64e3ffa": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ses_eba8f83a3ffeYwD6AQ5mHRvsZN",
+        "model": "unknown"
+      },
+      "human_author": "Mislav Ivanda <mislavivanda454@gmail.com>"
+    }
+  }
+}
