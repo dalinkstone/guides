@@ -1,0 +1,22 @@
+README.md
+  h_634fa4b3782b12 33
+python/computer-use/openai-computer-use/.env.example
+  h_634fa4b3782b12 1-9
+python/computer-use/openai-computer-use/.gitignore
+  h_634fa4b3782b12 1-168
+python/computer-use/openai-computer-use/README.md
+  h_634fa4b3782b12 1-67
+python/computer-use/openai-computer-use/main.py
+  h_634fa4b3782b12 1-147
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "7bd00e3a7d2a02d55dc2bd069c4b5088bbd3498e",
+  "prompts": {},
+  "humans": {
+    "h_634fa4b3782b12": {
+      "author": "Mislav Ivanda <mislavivanda454@gmail.com>"
+    }
+  }
+}
