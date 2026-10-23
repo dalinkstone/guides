@@ -2,6 +2,8 @@
 
 This example opens a canvas sketchpad in a Chromium window on a Daytona sandbox desktop and lets Claude draw in it with the mouse, through the Anthropic SDK's computer toolset.
 
+A [TypeScript version](../../../typescript/computer-use/claude-draws) of this example is also available.
+
 ## What you will build
 
 - A sandbox desktop at 1280x800, created and deleted by `DaytonaComputer` from the [`daytona-claude-toolsets`](https://pypi.org/project/daytona-claude-toolsets/) package.

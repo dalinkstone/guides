@@ -54,6 +54,7 @@ Then follow the guide's own README to install dependencies and run it.
 | [Anchor Cloud Browser](typescript/anchor/cloud-browser) | Run code in a Daytona sandbox and drive an Anchor cloud browser over HTTPS and CDP. |
 | [Claude Two-Agent System](typescript/anthropic/multi-agent-claude-sdk) | Two-agent Claude system coordinating work across sandboxes. |
 | [Claude Coding Agent](typescript/anthropic/single-claude-agent-sdk) | Single Claude Code agent you drive from the CLI. |
+| [Claude Draws](typescript/computer-use/claude-draws) | Claude drawing on a browser sketchpad in a sandbox desktop, via the Anthropic computer toolset. |
 | [Brainbase Universal Harness API](typescript/brainbase/universal-harness-api) | Background coding agent on any harness via Brainbase's Universal Harness API, running in Daytona sandboxes. |
 | [Devin CLI Coding Agent](typescript/cognition/devin-cli) | Coding agent powered by Cognition's Devin CLI. |
 | [Convex AI App Builder](typescript/convex/ai-app-builder) | AI app builder on the Daytona Convex component — LLM-generated apps run in sandboxes with live build state and iframe previews. |
