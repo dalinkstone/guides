@@ -1,0 +1,37 @@
+{
+  "name": "omnara-managed-agents",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Run agents on Omnara, the open-source managed agent platform, with sandboxes in your own Daytona account.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "setup": "npm run build && node dist/setup.js",
+    "start": "npm run build && node dist/index.js",
+    "cleanup": "npm run build && node dist/cleanup.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "omnara",
+    "agents",
+    "machine-pool",
+    "sandbox",
+    "typescript",
+    "daytona"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@daytona/sdk": "^0.224.1",
+    "@omnara/sdk": "^0.1.31",
+    "dotenv": "^16.3.1",
+    "yaml": "^2.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.2.2"
+  }
+}

@@ -63,6 +63,7 @@ Then follow the guide's own README to install dependencies and run it.
 | [Kiro CLI Coding Agent](typescript/kiro/kiro-cli) | Coding agent powered by AWS Kiro's CLI. |
 | [Letta Code Agent](typescript/letta-code) | Letta Code agent driven from the CLI. |
 | [Mastra Code Execution Agent](typescript/mastra/coding-agent) | Mastra agent that plans, writes, executes, and iterates on code. |
+| [Omnara Managed Agents](typescript/omnara/managed-agents) | Run agents on Omnara, the open-source managed agent platform, with sandboxes in your own Daytona account. |
 | [OpenAI Codex Agent](typescript/openai/codex-sdk) | OpenAI Codex agent driven from the CLI. |
 | [OpenClaw Assistant](typescript/openclaw) | OpenClaw general-purpose AI assistant with a web Control UI. |
 | [OpenCode Server](typescript/opencode/opencode-sdk) | OpenCode coding-agent server driven from the CLI. |

@@ -1,0 +1,27 @@
+# The whole agent. src/index.ts sends this file to Omnara when it launches the
+# agent, and Omnara compiles it into an agent config. It's based on the agent
+# from Omnara's quickstart, running on your Daytona sandboxes.
+version: v1
+
+instruction: |
+  You are an engineering assistant. Use your machine to run
+  commands. Use web search to find current information.
+
+# Any model behind the provider works. omnara-openrouter comes with every
+# organization on app.omnara.com; self-hosted deployments use their own
+# provider.
+model:
+  provider_config: omnara-openrouter
+  name: anthropic/claude-opus-5.5
+
+# Built-in tools run without approval by default. The machine source below
+# also gives the agent run_command and the other machine tools.
+tools:
+  web_search: {}
+  web_fetch: {}
+
+# Run commands on a sandbox from the "daytona-guide" machine pool, which
+# `npm run setup` creates with your Daytona API key. Omnara creates the
+# sandbox when the agent launches.
+machine_sources:
+  - machine_pool_name: daytona-guide
