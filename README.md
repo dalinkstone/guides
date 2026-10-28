@@ -21,6 +21,16 @@ cp .env.example .env           # then fill in your keys
 
 Then follow the guide's own README to install dependencies and run it.
 
+## Migrating to Daytona
+
+The [migration overview](migrations/README.md) explains the Daytona v2 toolkit,
+AST linter, human and agent workflows, and known gaps. Start with your source:
+[Vercel](migrations/vercel.md), [Fly](migrations/fly.md),
+[Blaxel](migrations/blaxel.md), [Modal](migrations/modal.md),
+[Cloudflare](migrations/cloudflare.md), or [E2B](migrations/e2b.md).
+The toolkit's publication destination is pending; the draft guides currently
+require a reviewed local checkout.
+
 ## Python guides
 
 | Guide | Description |
