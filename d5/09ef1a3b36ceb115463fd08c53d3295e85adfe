@@ -1,0 +1,33 @@
+migrations/fly.md
+  s_49aa043cb00dbc::t_bd893d8012716c 1-33
+migrations/vercel.md
+  s_49aa043cb00dbc::t_bd893d8012716c 1-33
+migrations/cloudflare.md
+  s_49aa043cb00dbc::t_bd893d8012716c 1-34
+migrations/blaxel.md
+  s_49aa043cb00dbc::t_bd893d8012716c 1-31
+README.md
+  s_49aa043cb00dbc::t_bd893d8012716c 24-33
+migrations/modal.md
+  s_49aa043cb00dbc::t_bd893d8012716c 1-33
+migrations/e2b.md
+  s_49aa043cb00dbc::t_bd893d8012716c 1-33
+migrations/README.md
+  s_49aa043cb00dbc::t_bd893d8012716c 1-115
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "d509ef1a3b36ceb115463fd08c53d3295e85adfe",
+  "prompts": {},
+  "sessions": {
+    "s_49aa043cb00dbc": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a17b93-51b3-74d3-981c-4075fb9de7c9",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Dalin Stone <dalinkstone@gmail.com>"
+    }
+  }
+}
