@@ -51,4 +51,3 @@ The process execution deadline is 30 seconds. The example requests deletion afte
 For async Python applications, use `AsyncDaytona` and await the matching operations; this Python example does not establish parity for every source runtime. Review [persistence](https://www.daytona.io/docs/en/v2/persistence/) and [volume availability](https://www.daytona.io/docs/en/v2/volumes/) before moving durable state.
 
 Validation recorded for this change: offline SDK and acceptance checks only. No live sandbox was created to verify this example.
-
