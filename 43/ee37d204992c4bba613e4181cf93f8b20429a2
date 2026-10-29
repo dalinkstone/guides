@@ -1,0 +1,55 @@
+typescript/migration-workflow/README.md
+  s_49aa043cb00dbc::t_4f501aeeb3c093 1-51
+  s_49aa043cb00dbc::t_cb45c0f47f7f0c 52-53
+typescript/migration-workflow/.gitignore
+  s_49aa043cb00dbc::t_82d58175bd40a0 1-3
+python/migration-workflow/test_workflow.py
+  s_49aa043cb00dbc::t_19fd5057709878 22,25-26,37-46
+  s_49aa043cb00dbc::t_aece4cdbd54ddb 1-21,23-24,27-36,47-56
+typescript/migration-workflow/tsconfig.json
+  s_49aa043cb00dbc::t_82d58175bd40a0 1-13
+python/migration-workflow/README.md
+  s_49aa043cb00dbc::t_4f501aeeb3c093 1-52
+  s_49aa043cb00dbc::t_97b329ef0d9a0c 53-54
+typescript/migration-workflow/.env.example
+  s_49aa043cb00dbc::t_82d58175bd40a0 1-2
+python/migration-workflow/.env.example
+  s_49aa043cb00dbc::t_82d58175bd40a0 1-2
+typescript/migration-workflow/package.json
+  s_49aa043cb00dbc::t_82d58175bd40a0 1-13
+python/migration-workflow/workflow.py
+  s_49aa043cb00dbc::t_82d58175bd40a0 1-21,24-59
+  s_49aa043cb00dbc::t_19fd5057709878 22-23
+python/migration-workflow/.gitignore
+  s_49aa043cb00dbc::t_82d58175bd40a0 1-3
+python/migration-workflow/requirements.txt
+  s_49aa043cb00dbc::t_82d58175bd40a0 1
+typescript/migration-workflow/workflow.ts
+  s_49aa043cb00dbc::t_19fd5057709878 18-19
+  s_49aa043cb00dbc::t_82d58175bd40a0 1-17,20-56
+.github/workflows/migration-examples.yml
+  s_49aa043cb00dbc::t_37e9e66b44cebd 1-34
+typescript/migration-workflow/workflow.test.ts
+  s_49aa043cb00dbc::t_aece4cdbd54ddb 1-14,16-17,20-26,38-46
+  s_49aa043cb00dbc::t_19fd5057709878 15,18-19,27-37
+README.md
+  s_49aa043cb00dbc::t_7254ca1e452205 28,53
+typescript/migration-workflow/package-lock.json
+  s_49aa043cb00dbc::t_aeb99341e49c6a 1-2483
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "43ee37d204992c4bba613e4181cf93f8b20429a2",
+  "prompts": {},
+  "sessions": {
+    "s_49aa043cb00dbc": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a17b93-51b3-74d3-981c-4075fb9de7c9",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Dalin Stone <dalinkstone@gmail.com>"
+    }
+  }
+}
