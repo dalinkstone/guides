@@ -49,7 +49,7 @@ class WorkflowTests(unittest.TestCase):
         result = subprocess.run([sys.executable, str(Path(__file__).with_name("workflow.py"))],
                                 env={"PATH": os.environ.get("PATH", "")}, capture_output=True, text=True)
         self.assertNotEqual(result.returncode, 0)
-        self.assertIn("--run", result.stderr)
+        self.assertIn("Pass --run to create a billable disposable sandbox.", result.stderr)
 
 
 if __name__ == "__main__":
