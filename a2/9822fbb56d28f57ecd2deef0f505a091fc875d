@@ -1,0 +1,19 @@
+python/migration-workflow/test_workflow.py
+  s_49aa043cb00dbc::t_819bfe425658f5 52
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "a29822fbb56d28f57ecd2deef0f505a091fc875d",
+  "prompts": {},
+  "sessions": {
+    "s_49aa043cb00dbc": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a17b93-51b3-74d3-981c-4075fb9de7c9",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Dalin Stone <dalinkstone@gmail.com>"
+    }
+  }
+}
