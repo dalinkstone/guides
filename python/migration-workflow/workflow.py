@@ -7,11 +7,8 @@ import sys
 from daytona import Daytona
 from daytona.v2 import LifecyclePolicyConfig
 
-# Public API evidence: https://www.daytona.io/docs/en/v2/python-sdk/daytona/
-# https://www.daytona.io/docs/en/v2/python-sdk/filesystem/
-# https://www.daytona.io/docs/en/v2/python-sdk/process/
-# https://www.daytona.io/docs/en/v2/python-sdk/sandbox/
-# Checked with daytona 2.0.0a3. Requires v2 Linux access.
+# Public API evidence: https://pypi.org/pypi/daytona/2.0.0a4/json
+# Targets daytona 2.0.0a4. Requires v2 Linux access.
 def run_workflow(daytona: Daytona, image: str):
     sandbox = daytona.v2.create(
         image, wait_seconds=60, create_timeout_seconds=300,
@@ -36,6 +33,7 @@ def run_workflow(daytona: Daytona, image: str):
         return {"output": output, "exit_code": result.exit_code}
     finally:
         # Only this newly created disposable sandbox belongs to the example.
+        # Deletion is asynchronous; returning does not prove teardown completed.
         sandbox.delete()
 
 

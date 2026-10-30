@@ -1,11 +1,8 @@
 import { Daytona } from '@daytona/sdk'
 import { pathToFileURL } from 'node:url'
 
-// Public API evidence: https://www.daytona.io/docs/en/v2/typescript-sdk/daytona/
-// https://www.daytona.io/docs/en/v2/typescript-sdk/filesystem/
-// https://www.daytona.io/docs/en/v2/typescript-sdk/process/
-// https://www.daytona.io/docs/en/v2/typescript-sdk/sandbox/
-// Checked with @daytona/sdk 2.0.0-alpha.3. Requires v2 Linux access.
+// Public API evidence: https://registry.npmjs.org/@daytona/sdk/2.0.0-alpha.4
+// Targets @daytona/sdk 2.0.0-alpha.4. Requires v2 Linux access.
 export async function runWorkflow(daytona: Daytona, image: string) {
   const sandbox = await daytona.v2.create(image, {
     waitSeconds: 60,
@@ -31,6 +28,7 @@ export async function runWorkflow(daytona: Daytona, image: string) {
     return { output, exitCode: result.exitCode }
   } finally {
     // Only the newly created disposable sandbox belongs to this example.
+    // Deletion is asynchronous; returning does not prove teardown completed.
     await sandbox.delete()
   }
 }
