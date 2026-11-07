@@ -1,0 +1,26 @@
+python/migration-workflow/README.md
+  h_944a555f9bb6e7 9,13,40,53,55-59,61
+python/migration-workflow/requirements.txt
+  h_944a555f9bb6e7 1
+python/migration-workflow/workflow.py
+  h_944a555f9bb6e7 10-11
+typescript/migration-workflow/README.md
+  h_944a555f9bb6e7 9,13,39,50,52,54-58,60
+typescript/migration-workflow/package-lock.json
+  h_944a555f9bb6e7 9,366-368
+typescript/migration-workflow/package.json
+  h_944a555f9bb6e7 11
+typescript/migration-workflow/workflow.ts
+  h_944a555f9bb6e7 4-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "88a65326ebf8ed2156e5aeca2881535bab0a11d1",
+  "prompts": {},
+  "humans": {
+    "h_944a555f9bb6e7": {
+      "author": "Dalin Stone <dalinkstone@gmail.com>"
+    }
+  }
+}
